@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background: rgb(110, 110, 138);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .app{
+    background: rgb(94, 94, 195);
+  }
+  
+  h1{
+    display: flex;
+    align-self: center;
+    font-size: 75px;
+  }
+
+  p{
+    font-weight: bold;
+  }
+  
+  .header {
+    display: flex;
+    align-content: flex-end;
+    padding: 20px;
+    top: 0;
+    color: white;
+    background-color: rgb(17, 17, 45);
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.9);
+  }
+
+  .logo{
+    border-radius: 50%;
+    height:95px;
+    width: 95px;
+  }
+
+  .link{
+    font-size: 50px;
+    margin:15px;
+  }
+
+  .link:link{
+    text-decoration: none;
+  }
+
+  .link:visited{
+    text-decoration-color: aliceblue;
+    text-decoration: none;
+  }
+
+  .link:hover{
+    text-decoration: none;
+  }
+
+  .link:active{
+    text-decoration: none;
+  }
+  
+  .main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin: 1% 0 1% 0;
+    padding: 10px;
+    color: white;
+    background-color: rgb(17, 17, 45);
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.9);
+  }
+  
+  button{
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    border-color: white;
+    background-color: rgb(17, 17, 45);
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.9);
+  }
+  
+  .footer{
+    display: flex;
+    position: fixed;
+    font-weight: bold;
+    width: 100%;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(17, 17, 45);
+    padding: 20px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.9);
+  }
