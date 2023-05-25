@@ -8,7 +8,7 @@ import Checkout from './components/Services.js' //NAV Example
 import ProductDetails from './components/ProductDetails.js' //Params 1
 import ServiceDetails from './components/serviceDetails.js';
 import Footer from './components/Footer';
- 
+
 const App = () => { // Step 3
     return ( // Step 4
         <Router> {/*Step 5*/}
